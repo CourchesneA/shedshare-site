@@ -6,4 +6,6 @@ Home page, privacy policy and terms of service of the ShedShare Android app, pub
 - English: `en/index.html`, `en/privacy.html`, `en/terms.html`
 - Styles and icons: `assets/`
 
+The download button links to `releases/latest/download/ShedShare.apk`. To publish a new app version, raise `versionCode` in the app, build the signed release APK, and create a GitHub Release in this repository with the file attached as `ShedShare.apk`. The link then serves the new version.
+
 Plain HTML and CSS, no build step. When you change a policy, change both languages and the date at the top of the page.
